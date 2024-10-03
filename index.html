@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-container">
+        <img src="assets/Pokemon_logo.png" alt="Pokemon Logo" class="logo">
+        
+        <div class="battlefield">
+
+            <div class="pokemon" id="pokemon1">
+                <h3>PIKACHU</h3>
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4f6bf5b3-c9b6-44c2-ab80-06e3ea80d511/dca37p4-e992703b-3518-475a-a3bd-bc2831f13e7b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRmNmJmNWIzLWM5YjYtNDRjMi1hYjgwLTA2ZTNlYTgwZDUxMVwvZGNhMzdwNC1lOTkyNzAzYi0zNTE4LTQ3NWEtYTNiZC1iYzI4MzFmMTNlN2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.2s_ncHqxAaOUEo1hDASd0wIZd85EW6HJtJHs46Np_xc" alt="Pikachu" class="pokemon-image">
+               		 <div class="health-bar">
+                    <div class="health" id="health1" style="width: 110%;"></div>
+                </div>
+                <button id="attack1">attack</button>
+                <button id="special1">special attack</button>
+            </div>
+
+            <div class="pokemon" id="pokemon2">
+                <h3>CHARMANDER</h3>
+                <img src="https://www.pngplay.com/wp-content/uploads/10/Charmander-Pokemon-PNG-Images-HD.png" alt="Charmander" class="pokemon-image">
+                <div class="health-bar">
+                    <div class="health" id="health2" style="width: 110%;"></div>
+                </div>
+                <button id="attack2">attack</button>
+                <button id="special2">special attack</button>
+            </div>
+
+            <img id="pokeball" src="https://avatanplus.com/files/resources/original/57910e491e9421560e9fcda5.png" alt="Pokeball" class="pokeball">
+      
+  </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
